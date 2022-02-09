@@ -33,11 +33,11 @@ const x: Record<Page, PageInfo> = {
 };
 
 // Compiled code
-"use strict";
-const x = {
-    about: { title: 'about' },
-    contact: { title: 'contact' },
-    home: { title: 'home' },
+"use strict";
+const x = {
+    about: { title: 'about' },
+    contact: { title: 'contact' },
+    home: { title: 'home' },
 };
 
 // Pick<T, K>

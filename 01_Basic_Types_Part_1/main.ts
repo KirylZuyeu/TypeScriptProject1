@@ -1,11 +1,12 @@
 // Data types in JavaScript
-- number
-- string
-- boolean
-- null
-- undefined
-- object
-- Symbol    // ES6
+// - number
+// - string
+// - boolean
+// - null
+// - undefined
+// - object
+// - Symbol   
+ // ES6
 
 // Variable type changing
 var num = 42;		// number
@@ -40,7 +41,7 @@ isCompleted = true;
 
 // Number Type
 const decimal: number = 6;
-const integer: number = 7.10;
+const integer: number = 7.10;
 const hex: number = 0xf00d;
 const binary: number = 0b1010;
 const octal: number = 0o744;
@@ -62,12 +63,12 @@ const n: null = null;
 
 // Void Type
 // For function result:
-const greetUser = (): void => {
-    alert("Hello, nice to see you!");
+const greetUser = (): void => {
+    alert("Hello, nice to see you!");
 };
 
 // For 'greetUser'
 // Error: Type '() => void' is not assignable to type 'void'
-const greetUser: void = () => {
-    alert("Hello, nice to see you!");
+const greetUser: void = () => {
+    alert("Hello, nice to see you!");
 };
